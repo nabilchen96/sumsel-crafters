@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <!-- <link rel="stylesheet" href="assets/css/style.css" /> -->
+    <title>Title</title>
+    <style>
+      .card {
+        border-radius: 10px;
+        border: none;
+      }
+      .tentang {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f6f6f6">
+    <div style="z-index: 9; position: sticky; top: 0">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container py-2 px-4">
+          <a class="navbar-brand py-0" href="index.html">
+            <div class="float-left tentang">
+              <img src="logosc.png" height="45" alt="">
+              <div style="margin-left: 10px; margin-top: auto; margin-bottom: auto;">
+                <h6 class="">SUMSEL CRAFTERS</h6>
+              </div>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  style="margin-right: 20px"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="produk.html" style="margin-right: 20px"
+                  >Produk</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="berita.html" style="margin-right: 20px"
+                  >Berita</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang.html" style="margin-right: 20px"
+                  >Tentang</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="login.html"
+                  class="btn btn-primary mb-1"
+                  style="margin-right: 5px; border-radius: 50px"
+                >
+                  <i class="bi bi-search"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-primary" style="border-radius: 50px">
+                  Login
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container px-4 mt-4">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="card"
+              style="
+                background-image: linear-gradient(90deg, black, transparent),
+                  url('https://cdn.pixabay.com/photo/2016/03/12/05/44/africa-1251529_960_720.jpg');
+                border-radius: 15px;
+                height: 300px;
+                background-size: cover;
+                background-position: center;
+              "
+              src=""
+              class="d-block w-100"
+              alt="..."
+            >
+              <div
+                style="margin-left: 20px; margin-top: auto; margin-bottom: auto"
+              >
+                <h4 class="text-white" style="width: 50%">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="mt-4 text-white" style="width: 40%">
+                  Temporibus deserunt sint nam earum eaque veritatis, quaerat
+                  impedit obcaecati tempora. Explicabo quis laborum facilis
+                  necessitatibus id, nulla magnam officiis fugiat numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="card"
+              style="
+
+                background-image: linear-gradient(90deg, black, transparent),
+                url('https://cdn.pixabay.com/photo/2019/11/10/05/53/indonesia-4614985_960_720.jpg');
+                border-radius: 15px;
+                height: 300px;
+                background-size: cover;
+              "
+              src=""
+              class="d-block w-100"
+              alt="..."
+            >
+              <div
+                style="margin-left: 20px; margin-top: auto; margin-bottom: auto"
+              >
+                <h4 class="text-white" style="width: 50%">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="mt-4 text-white" style="width: 40%">
+                  Temporibus deserunt sint nam earum eaque veritatis, quaerat
+                  impedit obcaecati tempora. Explicabo quis laborum facilis
+                  necessitatibus id, nulla magnam officiis fugiat numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="card"
+              style="
+                background-image: linear-gradient(90deg, black, transparent),
+                  url('https://cdn.pixabay.com/photo/2016/03/12/05/44/africa-1251529_960_720.jpg');
+                border-radius: 15px;
+                height: 300px;
+                object-fit: cover;
+              "
+              src=""
+              class="d-block w-100"
+              alt="..."
+            >
+              <div
+                style="margin-left: 20px; margin-top: auto; margin-bottom: auto"
+              >
+                <h4 class="text-white" style="width: 50%">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h4>
+                <p class="mt-4 text-white" style="width: 40%">
+                  Temporibus deserunt sint nam earum eaque veritatis, quaerat
+                  impedit obcaecati tempora. Explicabo quis laborum facilis
+                  necessitatibus id, nulla magnam officiis fugiat numquam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-12 px-4">
+          <h4>Daftar Produk</h4>
+          <div class="row">
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Apple Macbook Air (13 inci, M1 2020) 8GB RAM, 256GB ...
+                    <p class="mt-2"><b>Rp. 15.000.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    <span style="margin-top: 10px">alibabastore.id</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/12/46c8a371-f1ef-4a72-86d1-1c36716618ce.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    DIY painting by number 50x40cm kerajinan tangan luk ...
+                    <p class="mt-2"><b>Rp. 82.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    laravelstore
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/product-1/2018/9/16/17433/17433_f1f7c67b-8e74-40f6-89d5-101b02c2d5f3.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Kerajinan Tangan Rotan - Keranjang Sepeda Depan Ser ...
+
+                    <p class="mt-2"><b>Rp. 68.900</b></p>
+                    <i class="bi bi-shop"></i>
+                    <span style="margin-top: 10px">vueshop.id</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/product-1/2019/4/11/3330938/3330938_d4e27872-a239-4b04-b818-5ac54a2cb491_1560_1560.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Papercraft Kereta Api Indonesia. Kerajinan tangan ( ...
+
+                    <p class="mt-2"><b>Rp. 15.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    <span style="margin-top: 10px">specialone store</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/12/12/a1073983-a07f-4f27-be54-ad090aef68f1.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Songket Palembang ATBM Set Motif Cantik Manis Marun ...
+
+                    <p class="mt-2"><b>Rp. 350.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    alibabastore.id
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/1/30/e29eb45f-750b-4227-95c3-f63304c4be0d.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Tekwanfrozen paket 5 porsi asli ikan tenggiri
+                    <p class="mt-2"><b>Rp. 75.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    <span style="margin-top: 10px">alibabastore.id</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://images.tokopedia.net/img/cache/900/VqbcmM/2020/11/21/f4dff325-7068-488a-8c4f-ff7d97126e53.png"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    Keripik Pisang Aneka Asli Lampung - SUSU
+
+                    <p class="mt-2"><b>Rp. 15.000.000</b></p>
+                    <i class="bi bi-shop"></i>
+                    <span style="margin-top: 10px">loremipsum.store</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="produk.html" style="text-decoration: none;">
+                <div
+                  style="
+                    background-size: cover;
+                    background-position: center;
+                    min-height: 290px;
+                    background-image: linear-gradient(black, transparent),
+                      url('clothes.jpg') !important;
+                  "
+                  class="card shadow px-4"
+                >
+                  <h4 style="margin: auto; color: white">
+                    Lihat Daftar Produk Lainnya
+                    <i class="bi bi-arrow-right"></i>
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12 mt-5 px-4">
+          <h4>Berita</h4>
+          <div class="row">
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="berita-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://cdn.pixabay.com/photo/2015/01/08/18/25/desk-593327__340.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    <b
+                      >Projek Pengerjaan Seragam Batik Bersama Dinas Pariwisata
+                      Kota ...</b
+                    >
+                    <p class="mt-2">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Labore id quis alias accusamus, est, totam
+                    </p>
+                    <span class="badge bg-primary" style="margin-top: 10px"
+                      >Oleh alibabastore.id</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="berita-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://cdn.pixabay.com/photo/2017/05/27/22/33/morocco-2349647_960_720.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    <b>
+                      Daftar kota di mesir paling bersejarah dalam sejarah islam
+                      ...
+                    </b>
+                    <p class="mt-2">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Labore id quis alias accusamus, est, totam
+                    </p>
+                    <span class="badge bg-primary" style="margin-top: 10px">
+                      Oleh Admin
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="berita-detail.html" style="text-decoration: none;" class="card shadow">
+                <img
+                  style="
+                    border-radius: 10px 10px 0 0;
+                    object-fit: cover;
+                    height: 150px;
+                  "
+                  src="https://cdn.pixabay.com/photo/2020/05/25/17/03/travel-5219496_960_720.jpg"
+                />
+                <div class="card-body">
+                  <div class="card-text" style="font-size: 14px">
+                    <b>
+                      Daftar tujuan healing terbaik menurut admin, siapkan uang ...
+                    </b>
+                    <p class="mt-2">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Labore id quis alias accusamus, est, totam
+                    </p>
+                    <span class="badge bg-primary" style="margin-top: 10px"
+                      >Oleh alibabastore.id</span
+                    >
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-6 mt-3">
+              <a href="berita.html" style="text-decoration: none;">
+                <div
+                  style="
+                    background-size: cover;
+                    background-position: center;
+                    min-height: 338.84px;
+                    background-image: linear-gradient(black, transparent),
+                      url('https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg') !important;
+                  "
+                  class="card shadow px-4"
+                >
+                  <h4 style="margin: auto; color: white">
+                    Lihat Daftar Berita Lainnya
+                    <i class="bi bi-arrow-right"></i>
+                  </h4>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+    </div>
+    <div style="min-height: 200px; background: #f6f6f6">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.3829541449463!2d104.7545615152989!3d-2.9910576978216468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b7606b5245b43%3A0xdc206fa2daf3249a!2sKantor%20Walikota%20Palembang!5e0!3m2!1sid!2sid!4v1658304675313!5m2!1sid!2sid"
+        width="100%"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="text-center py-4">
+        Copyright ©2022 All rights reserved | Created By Nabil Sahretech
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
